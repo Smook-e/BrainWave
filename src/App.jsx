@@ -1,6 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import ButtonGradient from './assets/svg/ButtonGradient'
+import Button from './components/Button'
+import Header from './components/Header'
+
 import './index.css'
 
 function App() {
@@ -8,7 +10,11 @@ function App() {
 
   return (
     <>
-      <p className="text-3xl font-bold text-blue-500">Hello</p>
+      
+      <div className=' pt-19 lg:pt-23'>
+        <Header />
+      </div>
+      <ButtonGradient />
     </>
   )
 }
