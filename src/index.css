@@ -23,6 +23,9 @@
   --color-n-11: #1B1B2E;
   --color-n-12: #2E2A41;
   --color-n-13: #6C7275;
+  --background-image-radial-gradient: radial-gradient(var(--tw-gradient-stops));
+  --background-image-conic-gradient: conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876);
+  
 
   --font-sans: var(--font-sora), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-code: var(--font-code);
