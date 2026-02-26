@@ -6,9 +6,10 @@ const Section = ({
   crosses,
   crossesOffset,
   customPadding,
+  id,
 }) => {
   return (
-    <div
+    <div id={id}
       className={`relative ${className || ""} ${customPadding || `py-10 lg:py-16 xl:py-20 ${crosses ? "lg:py-32 xl:py-40" : ""} `} `}
     >
       {children}

@@ -8,6 +8,9 @@ import './index.css'
 
 import Collaboration from './components/Collaboration'
 import Services from './components/Services'
+import Pricing from './components/Pricing'
+import Roadmap from './components/Roadmap'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +25,9 @@ function App() {
 
         <Collaboration />
         <Services />
+        <Pricing />
+        <Roadmap />
+        <Footer />
       </div>
       <ButtonGradient />
     </>
