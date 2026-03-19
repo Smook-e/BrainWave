@@ -21,6 +21,8 @@ const Header = () => {
     }
     const onclick = (id) => {
         setActiveLink(id);
+        setOpenNavigation(false);
+        enablePageScroll();
         
     
 
@@ -39,7 +41,7 @@ const Header = () => {
                     className={`${openNavigation ? "flex" : "hidden"
                         } fixed top-[5rem] left-0 right-0 bottom-0 bg-n-8 lg:static lg:flex mx-auto lg:bg-transparent`}
                 >
-                    <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
+                    <div className=" z-2 flex flex-col items-center justify-center m-auto lg:flex-row">
                         {navigation.map((item) => (
                             <a
                                 key={item.id}
