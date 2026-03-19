@@ -47,4 +47,24 @@ To get a local copy up and running, follow these steps:
    
    # Open http://localhost:5173 in your browser.
 
+## 📂 Project Structure
+
+  ```textBrainWave/
+   ├── public/                 # static assets (images, favicon, etc.)
+   ├── src/
+   │   ├── assets/             # images, illustrations, lottie files
+   │   ├── components/         # reusable UI pieces
+   │   │   ├── ui/             # Aceternity / custom components (Spotlight, etc.)
+   │   │   └── ...             # sections, cards, buttons...
+   │   ├── styles/             # global CSS, Tailwind imports
+   │   └── App.jsx / main.jsx
+   ├── index.html
+   ├── vite.config.js
+   ├── tailwind.config.js      # (if you have custom config)
+   ├── package.json
+   └── README.md
+   ```
+
+    
+
    
