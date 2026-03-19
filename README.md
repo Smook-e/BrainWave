@@ -28,23 +28,23 @@ To get a local copy up and running, follow these steps:
 1. **Clone the repository**
    ```bash
    git clone [https://github.com/Smook-e/brainwave-clone.git](https://github.com/Smook-e/brainwave-clone.git)
+   ```
    # Enter project directory
+   ```bash
    cd BrainWave
+   ```
    
    # Install dependencies
-   npm install
-   # or
-   pnpm install
-   # or
-   yarn install
-2. **Development**
    ```bash
+   npm install
+   ```
+   
+3. **Development**
    # Start dev server
+   ```bash
    npm run dev
-   # or
-   pnpm dev
-   # or
-   yarn dev
+   ```
+   
    #Open http://localhost:5173 in your browser.
 
    
