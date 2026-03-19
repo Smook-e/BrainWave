@@ -22,8 +22,8 @@ const Roadmap = () => (
               }`}
               key={item.id}
             >
-              <div className="relative p-8 bg-n-8 rounded-[2.5rem] overflow-hidden xl:p-15">
-                <div className="absolute top-0 left-0 ">
+              <div className="relative p-8 bg-n-8 rounded-[2.5rem]  xl:p-15">
+                <div className="absolute inset-0 ">
                   <img
                     className="w-full"
                     src={grid}
