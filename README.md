@@ -1,3 +1,6 @@
+<img width="2499" height="1337" alt="image" src="https://github.com/user-attachments/assets/cb664dd2-1ea6-4bef-a3d6-1d360e373cf2" />
+
+
 # Brainwave - Modern AI Landing Page Clone
 
 A high-fidelity, responsive landing page built with **React.js** and **Tailwind CSS**. This project showcases complex layouts, sleek dark-mode aesthetics, and modern UI interactions.
